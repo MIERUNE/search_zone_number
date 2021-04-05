@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+geopandas = "==0.8.1"
+click = "==7.1.2"
+pyarrow = "==2.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
