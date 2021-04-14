@@ -3,6 +3,11 @@
 市区町村名・緯度経度から平面直角座標系を取得するCLIツール
 （パッケージとしても利用可能）
 
+## setup
+
+- [こちら](https://github.com/MIERUNE/create_gpkg_for_city_boundaries) のプログラムで`merge_city_boundary.feather`を作成
+- `.../search_zone_number/search_zone_number/assets/`に`merge_city_boundary.feather`を格納
+
 ## usage
 
 ### install library
