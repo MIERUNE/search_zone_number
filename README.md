@@ -56,15 +56,24 @@ Options:
 #### lnglat
 
 ```
-% pipenv run python -m search_zone_number lnglat -n 134.814283 -a 35.543052
+% pipenv run python -m search_zone_number lnglat -n 141.34694 -a 43.06417                                                 [main]:+
      GST_CSS_NAME system_number
-1676          豊岡市             5
+1042       札幌市中央区            12
 ```
 
 #### name
 
 ```
-% pipenv run python -m search_zone_number name -n 豊岡市
+% pipenv run python -m search_zone_number name -n 札幌市                                                                 [main]:+
      GST_CSS_NAME system_number
-1676          豊岡市             5
+1042       札幌市中央区            12
+1043        札幌市北区            12
+1044        札幌市南区            12
+1045       札幌市厚別区            12
+1046       札幌市手稲区            12
+1047        札幌市東区            12
+1048       札幌市清田区            12
+1049       札幌市白石区            12
+1050        札幌市西区            12
+1051       札幌市豊平区            12
 ```
