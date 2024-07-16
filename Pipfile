@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 geopandas = "==0.8.1"
 click = "==7.1.2"
-pyarrow = "==2.0.0"
+pyarrow = "==14.0.1"
 
 [dev-packages]
 
